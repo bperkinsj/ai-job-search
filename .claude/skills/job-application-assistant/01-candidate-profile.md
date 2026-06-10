@@ -70,16 +70,24 @@ Vancouver, BC, Canada
 - **R**: RStudio, ggplot2
 - **SQL**, **Bash**, **D3.js**
 - Workflow automation: Snakemake, Nextflow, Git/version control
+- Statistical modeling, hypothesis testing, neural networks *(CV resume variants)*
+- Conda environment management; structural ML methods (k-means clustering, PCA) *(GitHub — autoinhibition_and_alphafold2)*
+- Basic web development (HTML) — Codecademy coursework *(GitHub — excursion)*
 
 ### Domain Expertise
 - Protein structure prediction and structural biology (AlphaFold2, BioEmu, Rosetta, PyMOL, Chimera)
+- AlphaFold2 prediction evaluation methods: Predicted Aligned Error (PAE) analysis, solvent accessibility assessment *(GitHub — autoinhibition_and_alphafold2)*
 - Genomics bioinformatics (RNA-seq, WGS, single-cell, differential expression/DESeq2, variant calling, BWA/STAR/GATK/SAMtools)
 - Sequence/structural analysis (sequence homology, multiple sequence alignments, functional annotation)
-- Molecular biology / wet-lab biochemistry (protein purification, ITC, Western blot, SDS-PAGE, NGS, plasmid design and transformation, yeast two-hybrid, PCR, HPLC)
+- Phylogenetics pipeline development: OrthoFinder, MAFFT, FastTree, Diamond, PlotTree, Graphviz; comparative evaluation of DendroBLAST vs. alignment-based maximum-likelihood tree inference *(GitHub — biof501project)*
+- Mass spectrometry: conceptual/coursework knowledge plus pipeline development experience analyzing mouse mass spec data for another lab (no hands-on experiment experience) *(LinkedIn — verified by user)*
+- Foundational coursework knowledge: enzymology, molecular genetics, nucleic acid structure and function, advanced biochemical methods/techniques, synthetic chemical biology, medical microbiology and immunology, experimental medicine, problem-based bioinformatics, applied statistics/data analysis *(UBC transcript — BIOC 402/403/404/410/420/460, BIOL 335, CHEM 461, MICB 202, MEDI 504A, BIOF 520, STAT 200/545A/545B)*
+- Molecular biology / wet-lab biochemistry (protein purification, ITC, Western blot, SDS-PAGE, NGS, plasmid design and transformation, yeast two-hybrid, PCR, HPLC, SEC-MALS, circular dichroism (CD), X-ray crystallography fundamentals, microarray analysis, bacterial culturing and transformation *(CV resume variants)*)
 
 ### Software & Tools
 - Linux, HPC/SLURM, Compute Canada clusters
-- Bioinformatics databases: Protein Data Bank (PDB), GISAID, Ensembl, UCSC Genome Browser
+- Bioinformatics databases: Protein Data Bank (PDB), GISAID, Ensembl, UCSC Genome Browser, UniProt *(CV resume variants)*
+- AI Dev Tools: Amazon Q Developer, GitHub Copilot *(CV resume variants)*
 - Veterinary: AVImark, hematocrit testing, ultrasound, Gram stains
 
 ## Publications
@@ -103,4 +111,4 @@ Vancouver, BC, Canada
 More references available upon request.
 
 ## Personal Interests
-Outdoor recreation (hiking, birding, running, biking, ultimate frisbee); creative pursuits (writing, board games, long-time Dungeons & Dragons Game Master)
+Outdoor recreation (hiking, birding, running, biking, ultimate frisbee); creative pursuits (writing, board games, long-time Dungeons & Dragons Game Master); musical performance and composition (UBC School of Music coursework, 2015-2018, before transferring fully to Biochemistry) *(UBC transcript)*
