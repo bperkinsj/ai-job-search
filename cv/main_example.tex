@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Brooks Perkins-Jechow
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,19 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Brooks Perkins-Jechow - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Brooks}{Perkins-Jechow}
+\address{Austin, TX 78735, USA}{}{}
+\phone[mobile]{(512) 743-9454}
+\email{bjechow@alum.ubc.ca}
+\extrainfo{\href{https://www.linkedin.com/in/brookspj}{LinkedIn}, \href{https://www.github.com/bperkinsj}{GitHub}}
 
 \begin{document}
 
@@ -46,7 +46,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Computational biologist with an M.Sc. in Bioinformatics from the University of British Columbia (Gsponer Lab, 2025), specializing in protein structure prediction with AlphaFold2. Built and ran Python pipelines (Snakemake, SLURM, Biopython, PyMOL) for large-scale structure generation, evaluation, and sequence homology analysis, resulting in a first-author publication in \textit{Communications Chemistry}. Combines computational expertise with hands-on protein biochemistry experience and a track record of adapting quickly across research, clinical, education, and AI-evaluation roles.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +56,17 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Protein Structure Prediction \& Modeling}: AlphaFold2, BioEmu, Rosetta, PyMOL, Chimera, sequence homology and MSA analysis
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Programming \& Pipelines}: Python (Pandas, NumPy, PyTorch, Biopython), R (ggplot2), SQL, Bash, Snakemake, Nextflow, Git
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{HPC \& Workflow Automation}: SLURM, Compute Canada/HPC clusters, Linux environments, parallelized structure generation and evaluation (AlphaFold2, DockQ)
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Genomics Bioinformatics}: RNA-seq, WGS, single-cell analysis, differential expression (DESeq2), BWA/STAR/GATK/SAMtools
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Data Visualization \& Statistics}: matplotlib, seaborn, ggplot2, D3.js, statistical modeling, hypothesis testing
+
+\item \textbf{Molecular Biology \& Biochemistry}: Protein purification (IMAC, IEx, size exclusion), ITC, Western blot, SDS-PAGE, NGS, plasmid design and transformation, yeast two-hybrid, PCR, HPLC
 
 \end{itemize}
 
@@ -76,32 +78,62 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2026--Present}{AI Expert}{Mercor Intelligence}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Evaluated scientific and reasoning outputs from large language models against quality and accuracy criteria
+    \item Provided structured feedback to support AI model improvement
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2025--2026}{Substitute Teacher}{Eanes ISD}{Austin, TX, USA}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Conducted teaching plans for high school and elementary school students across science and history
+    \item Contributed to enrichment and guidance of special education students
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2022--2025}{Computational Biologist / Graduate Researcher}{Gsponer Lab, University of British Columbia}{Vancouver, BC, Canada}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Developed and distributed Python bioinformatics pipelines (Snakemake, Pandas, Biopython) to evaluate AlphaFold2 predictions of autoinhibitory proteins
+    \item Automated large-scale protein structure generation and evaluation (AlphaFold2, DockQ) using Bash and SLURM on HPC clusters
+    \item Conducted sequence homology and MSA diversity analysis to assess impact on protein prediction accuracy
+    \item Built a pipeline comparing differential gene expression in a cohort of Lynch syndrome patients
+    \item Findings published in \textit{Communications Chemistry} (2025) and presented at Cascadia Advanced Genomic Technologies (Seattle, 2026), BIG Research Day (2024), and BMB Poster Session (2024)
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2021--2022}{Veterinary Assistant}{The Night Owl Bird Hospital}{Vancouver, BC, Canada}{}{\vspace{1pt}
+\begin{itemize}
+    \item Assisted veterinarians with procedures including hematocrit tests, ultrasounds, and surgical/diagnostic imaging support
+    \item Prepared medication, maintained patient units, and recorded information in AVImark
+    \item Built strong client communication skills in a high-pressure clinical setting
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2020--2021}{Undergraduate Research Assistant}{Van Petegem Lab, University of British Columbia}{Vancouver, BC, Canada}{}{\vspace{1pt}
+\begin{itemize}
+    \item Expressed and purified proteins using IMAC, IEx, and size exclusion chromatography
+    \item Conducted isothermal titration calorimetry (ITC) and Western blotting to analyze protein interactions
+    \item Assisted with plasmid design and transformation for protein expression studies
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2018--2019}{Work/Learn Student}{Conibear Lab, Centre for Molecular Medicine and Therapeutics, BC Children's}{Vancouver, BC, Canada}{}{\vspace{1pt}
+\begin{itemize}
+    \item Designed and ordered plasmid vectors and verified content via Sanger sequencing and SDS-PAGE
+    \item Conducted yeast two-hybrid screening to characterize protein-protein interactions
+    \item Contributed to lab maintenance (media preparation, inventory of plasmid stock and supplies)
 \end{itemize}}}
 
 \end{itemize}
@@ -114,15 +146,42 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\needspace{5\baselineskip}
+\item{\cventry{2022--2025}{M.Sc. in Bioinformatics}{University of British Columbia}{Vancouver, BC, Canada}{}{\vspace{1pt}
+Thesis: \href{https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0448253?o=1}{``Predicting Alternative Conformations with AlphaFold2''} (PI: J\"org Gsponer, Ph.D., MD). Cumulative average 89.8\%.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\needspace{5\baselineskip}
+\item{\cventry{2015--2021}{B.Sc., Honours Biochemistry}{University of British Columbia}{Vancouver, BC, Canada}{}{\vspace{1pt}
+Thesis: \textit{Purification and crystallization of a novel cardiac protein LRRC10} (PI: Filip van Petegem, Ph.D.). Dean's List 2016--2019.
 }}
+
+\end{itemize}
+
+% ============================================================
+%     MENTORSHIP AND LEADERSHIP
+% ============================================================
+
+\section{Mentorship and Leadership}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{2024--2025}{Graduate Mentor}{Gsponer Lab, University of British Columbia}{Vancouver, BC, Canada}{}{\vspace{1pt}
+\begin{itemize}
+    \item Mentored two undergraduate researchers in Python programming and computational protein structural analysis
+    \item Guided an honors student in thesis development, assisting with data analysis and figure preparation
+    \item Delivered scientific outreach introducing AlphaFold2 to general audiences
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{2018--2020}{UBC SCI Team Member}{University of British Columbia}{Vancouver, BC, Canada}{}{\vspace{1pt}
+\begin{itemize}
+    \item Led initiatives to engage students in scientific research and academic opportunities
+    \item Served on the Summer Planning Committee (2018, 2019)
+\end{itemize}}}
 
 \end{itemize}
 
@@ -133,27 +192,34 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item English (native)
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     PUBLICATIONS
 % ============================================================
 
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\item Perkins-Jechow, B., Iglesias Ahualli, J.P., Gsponer, J. \textit{et al.} (2025). Challenging AlphaFold in Predicting Proteins with Large-Scale Allosteric Transitions. \textit{Communications Chemistry} \textbf{8}, 378.
+\item Perkins-Jechow, B., Iglesias Ahualli, J.P., Gsponer, J. \textit{et al.} (2026). Challenging AlphaFold in Predicting Proteins with Large-Scale Allosteric Transitions. Cascadia Advanced Genomic Technologies; Seattle, WA.
+\item Perkins-Jechow, B., Gsponer, J. (2024). Predicting Autoinhibitory Protein States with AlphaFold2. BIG Research Day; Vancouver, BC.
+\item Perkins-Jechow, B., Gsponer, J. (2024). Predicting Autoinhibitory Protein States with AlphaFold2. BMB Poster Session; Vancouver, BC.
 \end{itemize}
 
 % ============================================================
-%     HONORS AND AWARDS (optional)
+%     HONORS AND AWARDS
 % ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{International Major Entrance Scholarship} -- UBC (2016--2018).}
+\item{\textbf{Outstanding International Student Award} -- UBC (2016).}
+\item{\textbf{Faculty of Medicine Summer Student Research Award} -- UBC (2019).}
+\item{\textbf{Dean's List} -- UBC (2016--2019).}
+\item{\textbf{National Merit Finalist} -- Liberal Arts and Science Academy (2015).}
 \end{itemize}
 
 % ============================================================

@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** AlphaFold2, protein structure prediction, computational biology, Python pipeline development (Pandas, NumPy, PyTorch, Biopython), Snakemake, SLURM/HPC, Bash scripting, PyMOL, BioEmu, Git
+**Moderate match areas:** RNA-seq/WGS/genomics, differential expression (DESeq2), single-cell analysis, BWA/STAR/GATK/SAMtools, Nextflow, SQL, general data analysis/data engineering, statistical modeling, R/ggplot2, D3.js
+**Weak match areas:** Large-scale software engineering practices (CI/CD, cloud infrastructure at scale), enterprise data platforms, people management/leadership of large teams
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Protein structure prediction / structural biology pipelines, computational biology research (M.Sc. Gsponer Lab, published in Communications Chemistry)
+**Moderate:** Genomics bioinformatics (RNA-seq, WGS, differential expression - has built pipelines but less depth than protein work), wet-lab molecular biology/biochemistry (protein purification, ITC, plasmid work), general data analytics (Python/SQL)
+**Entry-level:** Industry (non-academic) bioinformatics or data roles generally - all professional bioinformatics experience to date is academic (UBC). AI/ML evaluation work (Mercor) and teaching (Eanes ISD) are recent and outside core bioinformatics.
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -63,19 +63,30 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Build a career in computational/protein bioinformatics (AlphaFold2, structure prediction, protein design, computational drug discovery) - this is the strongest fit and primary target
+- Gain industry (non-academic) experience to complement strong academic foundations - genomics bioinformatics and data analytics/data engineering roles are good secondary targets, especially in life sciences
+- Move toward the Pacific Northwest over time (Seattle, Bellingham, remote, or Vancouver with sponsorship)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Applying ML/AlphaFold2-style models to real biological problems; building computational pipelines that turn raw data into clear, reproducible results; research that leads to publications or concrete deliverables
+- Tasks that drain: Not yet well known - Brooks is early-career and open to learning what does and doesn't fit through varied roles. Avoid over-indexing here; do not assume any task type is draining without evidence.
+- Non-task factors: Mission-driven, collaborative, low-friction team culture; some autonomy in how work gets done; openness to mentorship/learning
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently living with parents in Austin, TX (zero housing cost), which makes lower-paying roles (e.g. academic research assistant positions) viable if based in Austin. Pharma/biotech industry roles are preferred over academia for pay, but Austin-based academic roles remain a reasonable fallback.
+- **Flexibility**: Needs to apply within 1-2 days of a posting going live to stay competitive (entry-level roles fill quickly)
+- **Professional development**: Prioritizes roles that build toward protein bioinformatics / structural biology specialization, or that offer a clear path into computational work from an adjacent role (e.g. wet-lab research associate with a computational group)
+
+**Location-based scoring (from personal job search agent, `C:\Users\bkadu\Documents\jobhunt\profile.yaml`):**
+- Vancouver, BC: highest personal priority (partner lives there) - requires employer sponsorship (LMIA or equivalent); flag sponsorship requirement explicitly
+- Seattle, WA / Bellingham, WA / Remote / other Pacific Northwest: high priority, no sponsorship needed
+- Austin, TX: moderate priority - currently based here, lower-paying roles are more viable due to zero housing cost
+- San Diego, CA: moderate - brother lives there, prefer higher-paying roles to offset cost of living
+- Anywhere else in the US: open but not preferred; needs to be a strong role match
+
+**Calibration from past applications:**
+- Was the top candidate at the Aparicio Lab (UBC) but lost out due to citizenship/sponsorship requirements - good signal of competitiveness for bioinformatics scientist roles when sponsorship isn't a barrier
+- Interviewed well for a data analytics role (Data SEA Consulting, Toronto) - signal that data analytics/data engineering skills (Python, SQL) translate well outside life sciences
 
 ### 6. Salary Benchmark (Optional)
 

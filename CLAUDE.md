@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Brooks Perkins-Jechow
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Brooks Perkins-Jechow, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,90 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Brooks Perkins-Jechow
+- **Location:** Austin, Texas, USA (currently living with parents; open to relocation, especially to the Pacific Northwest)
+- **Languages:** English (native)
+- **Status:** US citizen. Currently doing contract/part-time work (AI Expert at Mercor Intelligence; Substitute Teacher at Eanes ISD) while actively job searching for computational biology / bioinformatics roles
+- **LinkedIn headline:** "Computational Biologist"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **M.Sc. in Bioinformatics** (2022-2025) - University of British Columbia (Gsponer Lab)
+  - Thesis: "Predicting Alternative Conformations with AlphaFold2: with a focus on proteins exhibiting autoinhibitory behavior"
+  - Topics: AlphaFold2 / protein structure prediction, statistical methods for high-dimensional biology, computational approaches in biochemistry, data visualization. Cumulative average 89.8%.
+- **B.Sc. Honours in Biochemistry** (2015-2021) - University of British Columbia (Van Petegem Lab)
+  - Thesis: "Purification and crystallization of a novel cardiac protein LRRC10"
+  - Topics: protein purification (IMAC, IEx, size exclusion), ITC, Western blotting, plasmid design
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **AI Expert** (2026 - Present) - **Mercor Intelligence** (Remote)
+  - Evaluated scientific and reasoning outputs from large language models against quality and accuracy criteria
+  - Provided structured feedback to support AI model improvement
+- **Substitute Teacher** (2025 - 2026) - **Eanes ISD** (Austin, TX)
+  - Conducted teaching plans for high school and elementary students across science and history
+  - Contributed to enrichment and guidance of special education students
+- **Computational Biologist / Graduate Researcher** (2022 - 2025) - **Gsponer Lab, University of British Columbia** (Vancouver, BC, Canada)
+  - Developed and distributed Python bioinformatics pipelines (Snakemake, Pandas, Biopython) to evaluate AlphaFold2 predictions of autoinhibitory proteins
+  - Automated large-scale protein structure generation and evaluation (AlphaFold2, DockQ) using Bash/SLURM on HPC clusters
+  - Conducted sequence homology and MSA diversity analysis to assess impact on protein prediction accuracy
+  - Built a pipeline for differential gene expression analysis in a Lynch syndrome patient cohort
+  - Mentored two undergraduate researchers in Python and computational protein structural analysis (2024-2025)
+  - Findings published in *Communications Chemistry* and presented at Cascadia Advanced Genomic Technologies (Seattle, 2026)
+- **Veterinary Assistant** (2021 - 2022) - **The Night Owl Bird Hospital** (Vancouver, BC, Canada)
+  - Assisted veterinarians with procedures (hematocrit tests, ultrasounds, surgical assistance, diagnostic imaging)
+  - Prepared medication, maintained patient units, recorded information in AVImark
+- **Undergraduate Research Assistant** (2020 - 2021) - **Van Petegem Lab, University of British Columbia** (Vancouver, BC, Canada)
+  - Expressed and purified proteins using IMAC, IEx, and size exclusion chromatography
+  - Conducted ITC and Western blotting to analyze protein interactions
+  - Assisted with plasmid design and transformation for protein expression studies
+- **Work/Learn Student** (2018 - 2019) - **Conibear Lab, Centre for Molecular Medicine and Therapeutics, BC Children's** (Vancouver, BC, Canada)
+  - Designed and ordered plasmid vectors, verified content via Sanger sequencing and SDS-PAGE
+  - Conducted yeast two-hybrid screening to characterize protein-protein interactions
+
+### Independent Projects
+- **AI job search agent**: Built a Python agent (Obsidian-integrated) that scores incoming job postings against personal role/location priorities and emails a daily digest
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** AlphaFold2, protein structure prediction, computational biology, Python pipeline development (Pandas, NumPy, PyTorch, Biopython), Snakemake, SLURM/HPC, Bash scripting, PyMOL, BioEmu, Git
+- **Secondary:** RNA-seq analysis, WGS/genomics, differential expression (DESeq2), single-cell analysis, Nextflow, R/ggplot2, data visualization (matplotlib, seaborn, D3.js)
+- **Domain:** Structural biology, protein design and allostery, genomics bioinformatics, molecular biology / wet-lab biochemistry (protein purification, ITC, Western blot, SDS-PAGE, plasmid design, yeast two-hybrid, PCR, HPLC)
+- **Software:** Linux, SQL, Rosetta, Chimera, Protein Data Bank/GISAID/Ensembl/UCSC Genome Browser, AVImark
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+_None currently._
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+1. Perkins-Jechow, B., Iglesias Ahualli, J.P., Gsponer, J. et al. (2025). Challenging AlphaFold in Predicting Proteins with Large-Scale Allosteric Transitions. *Communications Chemistry* 8, 378.
+2. Perkins-Jechow, B., Iglesias Ahualli, J.P., Gsponer, J. et al. (2026). Challenging AlphaFold in Predicting Proteins with Large-Scale Allosteric Transitions. Cascadia Advanced Genomic Technologies, Seattle, WA.
+3. Perkins-Jechow, B., Gsponer, J. (2024). Predicting Autoinhibitory Protein States with AlphaFold2. BIG Research Day, Vancouver, BC.
+4. Perkins-Jechow, B., Gsponer, J. (2024). Predicting Autoinhibitory Protein States with AlphaFold2. BMB Poster Session, Vancouver, BC.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- International Major Entrance Scholarship - UBC (2016-2018)
+- Outstanding International Student Award - UBC (2016)
+- Faculty of Medicine Summer Student Research Award - UBC (2019)
+- Dean's List - UBC (2016-2019)
+- National Merit Finalist - Liberal Arts and Science Academy (2015)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Myers-Briggs type: INFP** - values-driven, reflective, adaptable, motivated by meaningful work over status or routine
+- **Strengths:** Independent problem-solving, deep focus on research projects, written communication, adaptability across very different environments (research lab, veterinary clinic, classroom)
+- **Growth areas:** Limited industry (non-academic) bioinformatics experience so far; building breadth across role types to learn what fits best
+- **Thrives in:** Mission-driven, collaborative environments with autonomy and room for independent thinking; research-oriented or learning-oriented cultures
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Applying machine learning (especially AlphaFold2 and related structure-prediction models) to real biological problems
+- Building computational pipelines that turn messy data into clear, reproducible results
+- Currently early-career and open to discovering what specific work energizes him most - values roles that offer learning and variety
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Protein bioinformatics / structural biology:** biotech and pharma companies doing protein structure prediction, design, or computational drug discovery (e.g. companies using AlphaFold2/Rosetta-type tools)
+- **Genomics bioinformatics:** academic and industry labs working with RNA-seq, WGS, single-cell, and variant-calling pipelines
+- **Data analytics / data engineering:** general data science/analytics roles (life sciences preferred but open to other sectors)
+- **Wet-lab / molecular biology:** research assistant/associate roles, especially in Austin (zero living cost) or with a path into computational work
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None at this time - open to a broad range of roles while early in the bioinformatics career path
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

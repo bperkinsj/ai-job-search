@@ -8,30 +8,49 @@ Structure answers as: **Situation** (context), **Task** (your responsibility), *
 
 Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
 
-## Ready-Made STAR Examples
+## STAR Candidates (Complete Manually)
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Path A extraction: stubs from CV/LinkedIn/reference material. Flesh out S/T/A/R with specific details before relying on these in interviews. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### AlphaFold2 autoinhibitory protein pipeline (M.Sc. thesis -> publication)
+**Source:** M.Sc. thesis / Communications Chemistry publication, Gsponer Lab
+**What happened:** Built a Python pipeline to evaluate AlphaFold2's predictions of autoinhibitory protein conformations, which became the basis of a first-author paper.
+**Why it matters:** Strong example for "tell me about a research project you led", "how do you approach an open-ended technical problem", "tell me about a time your work had measurable impact"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Mentoring undergraduate researchers
+**Source:** CV - Graduate Mentor, Gsponer Lab (2024-2025)
+**What happened:** Mentored two undergraduates in Python and computational protein structural analysis, and guided an honors student through thesis data analysis and figure preparation.
+**Why it matters:** Good for "describe a time you mentored or trained someone", "how do you communicate technical concepts to others"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Differential expression pipeline for Lynch syndrome cohort
+**Source:** CV - Computational Biologist, Gsponer Lab
+**What happened:** Developed a pipeline comparing gene differential expression across a set of Lynch syndrome patients.
+**Why it matters:** Good for genomics-bioinformatics interviews, "tell me about a project outside your main focus area"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Cross-domain adaptability (research -> veterinary clinic -> teaching -> AI evaluation)
+**Source:** Full career history (CV)
+**What happened:** Successfully moved between very different work environments - computational research, veterinary assistance, K-12 substitute teaching, and LLM output evaluation at Mercor Intelligence - picking up new domains quickly each time.
+**Why it matters:** Strong for "tell me about a time you had to learn something quickly", "how do you handle change", "why are you interested in a role outside your specialization"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

@@ -149,6 +149,12 @@ The font wrapper is mandatory — if you just move `\begin{itemize}` outside `\l
 - Adjust date format to local convention
 - Adjust closing to local convention (e.g. "Med venlig hilsen," for Danish)
 
+## Patterns Observed in Past Applications
+
+- When no hiring manager name is known, past letters consistently open with "Dear Hiring Team at [Company],"
+- The body reliably maps 1-2 past roles/projects directly onto the posting's stated needs paragraph by paragraph (e.g. "My experience in X comes from my work in [Lab/Role], where I... These skills are directly relevant to [need stated in posting].")
+- Closing paragraph restates enthusiasm for the specific mission/work and ends with a variant of "I would welcome the opportunity to discuss how my skills and experience would be of use to [Company]."
+
 ## Checklist Before Finalizing
 - [ ] No em-dashes (use commas or periods instead)
 - [ ] No cliches or empty filler

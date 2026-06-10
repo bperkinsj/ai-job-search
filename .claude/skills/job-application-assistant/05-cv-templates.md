@@ -105,12 +105,17 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Protein Bioinformatics / Structural Biology roles (primary target):**
+> Computational biologist with an M.Sc. in Bioinformatics from the University of British Columbia (Gsponer Lab, 2025), specializing in protein structure prediction with AlphaFold2. Built and ran Python pipelines (Snakemake, SLURM, Biopython, PyMOL) for large-scale structure generation, evaluation, and sequence homology analysis, resulting in a first-author publication in *Communications Chemistry*. Combines this computational expertise with hands-on protein biochemistry experience (purification, ITC, crystallography), enabling close collaboration with experimental teams.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Genomics Bioinformatics roles:**
+> Bioinformatician with an M.Sc. from the University of British Columbia, experienced in building Python pipelines for high-throughput -omics data analysis (RNA-seq, differential expression, single-cell). Comfortable across the full workflow from HPC/SLURM job orchestration with Snakemake to statistical analysis and visualization in Jupyter, R, and ggplot2. Strong foundation in protein structure prediction (AlphaFold2, published in *Communications Chemistry*) adds depth to structural and functional interpretation of genomic findings.
+
+**For Data Analytics / Data Engineering roles:**
+> Data-driven scientist with an M.Sc. in Bioinformatics and a track record of building reproducible Python and SQL pipelines for large biological datasets. Experienced in statistical modeling, workflow automation (Snakemake, Nextflow, Git), and turning complex data into clear visualizations and reports (Pandas, matplotlib, seaborn, ggplot2). Brings strong analytical rigor from a published research project (*Communications Chemistry*, 2025) and is comfortable applying these skills to new domains.
+
+**For Wet Lab / Molecular Biology / Research Assistant roles:**
+> Molecular biologist with hands-on experience in protein purification and characterization (IMAC, IEx, size exclusion chromatography, ITC, Western blot, SDS-PAGE) alongside an M.Sc. in Bioinformatics. Experienced in plasmid design, bacterial/yeast culturing, and lab maintenance from multiple research placements at UBC and BC Children's Hospital. Brings a strong computational complement (Python, AlphaFold2) that enables effective collaboration between wet-lab and computational teams.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
